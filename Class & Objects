@@ -1,0 +1,61 @@
+## class and object ***
+Class:
+      blueprint of creating objects.
+      
+
+class laptop:
+    price=0
+    processor=""
+    ram=""
+
+hp=laptop()
+dell=laptop()
+lenovo=laptop()
+
+hp.price=50000
+hp.processor="I5"
+hp.ram="8GB"
+
+dell.price=60000
+dell.processor="7th GEN"
+dell.ram="12GB"
+
+lenovo.price=55000
+lenovo.processor="I7"
+lenovo.ram="8GB"
+
+print(dell.processor)
+print(hp.ram)
+print(lenovo)
+
+
+## constructor and self function ##
+
+class laptop:
+    def __init__ (self):
+        name=""
+        price=0
+        ram=""
+        processor=""
+    def display(self):
+        print("Name",self.name)
+        print("price",self.price)
+        print("ram",self.ram)
+        print("processor",self.processor)
+        
+        
+hp=laptop()
+dell=laptop()
+
+hp.name="HP"
+hp.price=50000
+hp.ram="8GB"
+hp.processor="I5"
+
+dell.name="DELL"
+dell.price=60000
+dell.ram="16GB"
+dell.processor="I7"
+
+hp.display()
+dell.display()
