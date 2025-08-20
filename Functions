@@ -46,7 +46,7 @@ findevenorodd(a)
 
 
 
-# find pass or fail ##
+## find pass or fail ##
 
 def passorfail(a):
     if (a>=35):
@@ -56,7 +56,9 @@ def passorfail(a):
 a=int(input("Enter a Mark: "))
 passorfail(a)
 
-# find range between two numbers ##
+
+
+## find range between two numbers ##
 
 def findrange(R1,R2):
     for i in range(R1,R2):
@@ -102,12 +104,3 @@ addition=add(a,b)
 output=addition*c
 
 print(output)
-
-def f(value, values):
-    v = 1
-    values[0] = 44
-a = 3
-v = [1, 2, 3]
-f(a, v)
-print(a, v[0])
-
