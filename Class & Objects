@@ -1,7 +1,12 @@
 ## class and object ***
 Class:
       blueprint of creating objects.
-      
+
+Object :       
+      instance of a class
+
+
+## Examples ##
 
 class laptop:
     price=0
