@@ -64,3 +64,31 @@ dell.processor="I7"
 
 hp.display()
 dell.display()
+
+
+## Instance variable ##
+
+class phone():
+    def __init__(self,brand,price,chargertype,processor):
+        self.brand=brand
+        self.price=price
+        self.chargertype=chargertype
+        self.processor=processor
+        
+    def display(self):
+        print("brand :",self.brand)
+        print("price :",self.price)
+        print("chargertype :",self.chargertype)
+        print("processor",self.processor)
+        
+sam=phone("Samsung","20000","B-type","snapdragon-7")
+red=phone("Redmi","15000","C-type","snapdragon-8")
+oppo=phone("Oppo","22000","C-type","octacore")
+vivo=phone("Vivo","18000","B-type","snapdragon-8")
+
+sam.display()
+red.display()
+oppo.display()
+vivo.display()
+
+
