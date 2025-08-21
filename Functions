@@ -1,5 +1,7 @@
 ## FUNCTION - simple add, sub, mul, div  ##
 
+Function : block of reusable code that performs specific task.
+
 
 def add():
     print("addition")
