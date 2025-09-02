@@ -91,13 +91,26 @@ Output -  week 1
 
 for i in range(5):
     print()
-    for j in range(1,i+1):
-        print("*",end="")
+    for j in range(1,i+1):          # i+1 → take the value of i and add 1 to it 
+        print("*",end="")           # end="" → prints on the same line.
 
+
+Output - 
+          *
+          **
+          ***
+          ****
+                    
 for i in range(5):
     print()
-    for j in range(1,i+1):
-        print(j,end="")
+    for j in range(1,i-1):          # i-1 → take the value of i and subtratct 1 to it 
+        print(j,end=" ")            # end=" " → adds a space instead of a newline.
+
+Output -                               
+
+
+          1 
+          1 2 
 
 ## While loop ##
 
