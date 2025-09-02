@@ -5,26 +5,39 @@ For loop :
 
 ## Examples ##
 
-for i in "apple":
+for i in "apple":        # using i variable for iterate values
     print(i)
+
+# Output - a
+          p
+          p
+          l
+          e
 
 ## loop with list ##
 
 fruits = ["apple", "banana", "cherry"]
 
-for fruit in fruits:
+for fruit in fruits:      # using fruit variable for iterate fruits variable 
     print(fruit)
+
+# Output - apple
+           banana
+           cherry
 
 ## loop with dictionary ##
 
 student = {"name": "Roshan", "age": 22}
 
-for key, value in student.items():
-    print(key, ":", value)
+for i, j in student.items():    # i for iterate key , j for value , .items() returns all key-value pairs in dictionary 
+    print(i, ":", j)
 
-## range method ##
+# Output - name : Roshan
+           age : 22
 
-for i in range(5):
+## range method - range(start, stop, step) ##
+
+for i in range(5):      # range(5) starts from 0 to 4  
     print(i)
 
 ## Nested for loop ##
