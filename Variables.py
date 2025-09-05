@@ -18,9 +18,6 @@ age = 40
 print(age)
 
 # Variable names can contain letters, numbers, and underscores. However, they cannot start with a number.
-# There are some reserved names because Python uses them for other things.
-# For example, don't call your variable print, because print is something else!
-
 # Longer variable names are written in snake_case in Python:
 
 friend_age = 23
